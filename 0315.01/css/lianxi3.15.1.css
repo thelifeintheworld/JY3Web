@@ -1,0 +1,32 @@
+h1{
+  color: #f00;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 100px;
+  font-size: 36px;
+  font-family: Georgia, Palatino, serif;
+  }
+  
+  table{
+  	color:darkgray;
+  	background: gray;
+ 		width: 70%;
+    margin-left: auto;
+  	margin-right: auto;
+  	font-size: 30px;
+  }
+  img {
+  	background-color:darkblue;
+  	width: 30%;
+    margin-left: 20px;
+  	margin-right:30px;
+  	font-family: Georgia, Palatino, serif;
+  }
+hr{
+	color:mediumvioletred;
+}
+div,h1
+{
+	background-image: url(../img/c583df4cdb382aff-41d90f1708ec4a72-30a7e75b2ea7271c22502b4b24838a9a.jpg);
+}
