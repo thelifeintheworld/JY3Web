@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>红包图片、</title>
+		<style>
+			
+			body{
+				background-color: midnightblue;
+			}
+			#screen
+			{
+				width: 100%;
+				height: 100%;
+				position: fixed;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			#red{
+				width:20% ;
+				height:60%;
+				position: relative;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-wrap: wrap;
+				background-color: #b71c1c;
+				border-radius: 15% 15% 30% 30%;
+			}
+			#redt{
+				width: 100%;
+				height: 30%;
+				border-radius:  15% 15% 35% 35%;
+				position:relative;
+				background-color: #e53935;
+			}
+			#redb{
+				width: 100%;
+				height: 70%;
+				position:relative;
+				text-align: center;
+			}
+			#kai{
+				width: 40%;
+				height: 40%;
+				position:relative;
+				background-color:goldenrod;
+				border-radius:50%;
+				top:-11%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				
+			}
+			#img{
+				width: 50%;
+				height: 50%;
+				position: relative;
+			}
+			#img img{
+				width: 100%;
+				height: 100%;
+			}
+			span{
+				color:goldenrod;
+				font-size: 30px;
+			}
+		</style>	
+	</head>
+	<body>
+		<div id="screen">
+			<div id="red">
+				<div id="redt" class="red">
+					
+				</div>
+				<div id="kai" class="red">
+					<div id="img">
+						<img src="img/人民币.svg"/>
+					</div>
+					
+				</div>
+				<div id="redb" class="red">
+					<span>恭喜发财，大吉大利！</span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

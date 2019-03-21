@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>微信聊天界面</title>
+		<style>
+			#large{
+				width: 100%;
+				height: 100%;
+				position: fixed;
+				background-color:black;
+				display: flex;
+				flex-wrap: wrap;
+			}
+			#top2{
+				width: 100%;
+				height: 10%;
+				display: flex;
+				justify-content: space-between;
+			}
+			.top2{
+				width: 30%;
+				height: 100%;
+				text-align: center;
+			}
+			span{
+				font-size: -webkit-xxx-large;
+				line-height: 100%;
+				color:#BDBDBD
+			}
+			.top2 img
+			{
+				width: 50%;
+				height: 100%;
+				position: relative;
+				top:0;
+				left: -18%;
+			}
+			#imgrt{
+				top:0;
+				left: 20%;
+			}
+			#text2{
+				width: 100%;
+				height: 80%;
+				overflow: scroll;
+				display: flex;
+				background-color: gray;
+			}
+			#tbottom{
+				width: 100%;
+				height: 10%;
+				display: flex;
+				flex-wrap: wrap;
+				
+			}
+			#input{
+				width: 70%;
+				height: 100%;
+			}
+			.bottom2
+			{
+				width: 10%;
+				height: 100%;
+			}
+			.bottom2 img
+			{
+				width: 100%;
+				height: 80%;
+				position: relative;
+				top:10%;
+			}
+			#input1{
+				width: 100%;
+				height: 80%;
+				border-radius: 15px;
+				text-indent: 2px;
+				font-size: 100%;
+				border: none;
+				position: relative;
+				top:10%;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="large">
+		<div id="top2">
+			<div class="top2">
+				<img src="img/箭头-向左.svg"/>
+			</div>
+			<div class="top2">
+				<span>
+					微信联系人姓名
+				</span>
+			</div>
+			<div class="top2">
+				<img id="imgrt" src="img/联系人.svg"/>
+			</div>
+		</div>
+		<div id="text2">
+			
+		</div>
+		<div id="tbottom">
+			<div class="bottom2">
+				<img src="img/声音.svg"/>
+			</div>
+			<div id="input" class="bottom2">
+				<input type="text" name="" id="input1" value=""/><label for="">输入框</label>
+			</div>
+			<div class="bottom2">
+				<img src="img/添加 (1).svg" alt="" />
+			</div>
+			<div class="bottom2">
+				<img src="img/表情.svg" alt="" />
+			</div>
+		</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+		
+		<title>微信聊天界面</title>
+		<style type="text/css">
+			body{
+				background-color: lightslategray;
+			}
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			#1{
+				width: 100%;
+				height:100% ;
+				position: fixed;
+				display: flex;
+				flex-wrap: wrap;
+				flex-direction: column;
+			}
+			#top{
+				width: 100%;
+				height: 15%;
+				background-color: #FF7F50;
+				position: absolute;
+				display: flex;
+				
+			}
+			#text{
+				width:100% ;
+				height: 70%;
+				overflow:scroll;
+				position: absolute;
+				background-color: aqua;
+				top:15%;
+				left:0 ;
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+			}
+			#bottom{
+				width:100%;
+				height: 15%;
+				bottom: 0px;
+				position: absolute;
+				background-color: #8A2BE2;
+			}
+			.bottom{
+				width: 25%;
+				height: 100%;
+				position: relative;
+				float: left;
+				text-align: center;
+				display: block;
+				font-size: 10px;
+			}
+			
+			.bottom img
+			{
+				width: 50%;
+				height: 50%;
+				position: relative;
+				top:25%;
+				left:2%;
+			}
+			.bottom span{
+				text-align: center;
+				display: block;
+				margin-bottom: 10px;
+			}
+			.msg{
+				width: 20%;
+				height: 20%;
+				border-radius:50% ;
+				position: absolute;
+				left:60%;
+				background-color: red;
+				bottom:80%;
+				color: white;
+			}
+			.top{
+				width: 25%;
+				height: 100%;
+			}
+			.top img{
+				width: 50%;
+				height: 50%;
+				position: relative;
+				top:25%;
+				left: 50%;
+			}
+			.top span {
+			   text-align: left;
+				display: block;
+				font-size: -webkit-xxx-large;
+				line-height:100% ;
+				color: darkgray;	
+			}
+			.people{
+				width: 100%;
+				height: 20%;
+				border: 2px solid white;
+			}
+		</style>
+	</head>
+	<body>
+		 <div id="1">
+		 <div id="top">
+		 	<div class="top"> <span>微信</span></div>
+		 	<div class="top"></div>
+		 	<div class="top"> <img src="img/搜索.svg"/></div>
+		 	<div class="top"> 
+		 	<img src="img/加号 (1).svg"/></div>
+		 </div>
+		 <div id="text">
+		 	<div class="people"> <h2>1</h2></div>
+		 	<div class="people"><h2>2</h2></div>
+		 	<div class="people"><h2>3</h2></div>
+		 	<div class="people"><h2>4</h2></div>
+		 	<div class="people"><h2>5</h2></div>
+		 	<div class="people"><h2>6</h2></div>
+		 	<div class="people"><h2>7</h2></div>
+		 	<div class="people"><h2>8</h2></div>
+		 	<div class="people"><h2>9</h2></div>
+		 	<div class="people"><h2>10</h2></div>
+		 	<div class="people"><h2>11</h2></div>
+		 	<div class="people"><h2>12</h2></div>
+		 </div>
+		 <div id="bottom">
+			<div id="xinxi" class="bottom"> 
+				<div class="msg">15</div>
+				<a href=""><img src="img/微信.svg" /></a>
+				<span>微信</span>
+			</div>
+			<div id="lianxiren"class="bottom">
+				<a href=""><img src="img/联系人.svg" /></a>
+				<span>通讯录</span>
+			</div>
+			<div id="gongzhonghao"class="bottom">
+				<a href=""><img src="img/公众号.svg" /></a>
+				<span>公众号</span>
+			</div>
+			<div id="pengyouquan" class="bottom">
+				<a href=""><img src="img/朋友圈.svg" /></a>
+				<span>朋友圈</span>
+		   </div>
+		 </div>
+	</body>
+</html>
