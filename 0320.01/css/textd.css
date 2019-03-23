@@ -1,0 +1,61 @@
+#textd{
+	width: 100%;
+	flex:1;
+	background-color: #EEEEEE;
+	align-items: center;
+	overflow: scroll;
+	flex-direction: column;
+	
+}
+ #textd #omsg
+ {
+ 	width: 95%;
+ 	height: 60px;
+ 	background-color: #FFFF00;
+ 	display: flex;
+ 	border-bottom: 1px solid gray;
+ 	margin-left: 2.5%;
+ }
+#headphoto{
+	flex:0.2;
+	height: 100%;
+	background-image: url(../img/4871f53eadb450fe-93cfa3aaefd949a6-b62e06bf369b445392591eeb7319cd46.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#centeromsg{
+	display: flex;
+	flex:0.6;
+	height: 100%;
+	margin-left: 10px;
+	justify-content: center;
+	
+	flex-direction: column;
+}
+#centeromsg span:nth-child(2)
+{
+	font-size:14px ;
+	color:gray;
+}
+#centeromsg span:first-child
+{
+	font-size: 18px;
+}
+#rightomsg{
+	flex-direction: column;
+	flex:0.2;
+	height: 100%;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	
+	
+}
+#rightomsg img{
+	width:20px ;
+	height: 20px;
+}
+#rightomsg span {
+	margin-top: 5px;
+	color: gray;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>点击1</title>
+		<style>
+			body{
+				position: fixed;
+			}
+			div{
+				border: double 2px blue;
+				
+			}
+			#d1{
+				width: 200px;
+				height: 200px;
+				background-color: #999900;
+				display: none;
+				transition: all 2s;
+			}
+		</style>
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<img src="img/加号.svg" id="i1"/>
+		<div id="d1">
+			
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(function(){
+			$("#i1").click(function(){
+				$("#d1").toggle();
+			})
+		})
+	</script>
+</html>

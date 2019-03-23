@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>正方形变八边形</title>
+		<style type="text/css">
+			div{
+				width: 200px;
+				height: 200px;
+			}
+			#fd{
+				overflow: hidden;
+			}
+			#sd{
+				background-color: aqua;
+				transition: all 3s;
+				transition-delay: 0.8s;
+			}
+			#fd:hover #sd
+			{
+				background-color: #FF7F50;
+				transform: rotate(45deg);
+				
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div id="fd">
+			<div id="sd">
+				
+			</div>
+		</div>
+	</body>
+</html>

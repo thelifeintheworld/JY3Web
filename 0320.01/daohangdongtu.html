@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>导航栏移动出现</title>
+		<style type="text/css">
+			div
+			{
+				float: left;
+			}
+			#left{
+				width: 200px;
+				height: 500px;
+				background-color: aqua;
+			}
+			#right{
+				width: 600px;
+				height: 500px;
+				background-color: coral;
+				display: none;
+				
+			}
+			a{
+				text-decoration: none;
+			}
+			li{
+				list-style:none ;
+			}
+			#left:hover + #right
+			{
+				display:block ;
+				
+			}
+			#right:hover
+			{
+				display: block;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div id="left">
+			<ul>
+				<li> <a href=""> 家电</a></li>
+				<li> <a href=""> 家电</a></li>
+				<li> <a href=""> 家电</a></li>
+				<li> <a href=""> 家电</a></li>
+				<li><a href=""> 家电</a> </li>
+				<li> <a href=""> 家电</a></li>
+				<li> <a href=""> 家电</a></li>
+				
+			</ul>
+		</div>
+		<div id="right">
+			
+		</div>
+	</body>
+</html>
