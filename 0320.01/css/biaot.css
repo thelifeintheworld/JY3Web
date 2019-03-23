@@ -17,12 +17,11 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	ma
 }
 #btr img{
 	width:26px ;
 	height: 26px;
 }
 #btl span{
-	color: #EEEEEE;
+	color: black;
 }

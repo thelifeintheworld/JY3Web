@@ -1,0 +1,53 @@
+#txtext{
+	width: 100%;
+	flex:1;
+	background-color: #EEEEEE;
+	align-items: center;
+	overflow: scroll;
+	flex-direction: column;
+}
+.guding
+{
+	width:100%;
+ 	height: 60px;
+ 	background-color: #00E5FF;
+ 	display: flex;
+ 	align-items: center;
+ 	border-bottom: 1px solid gray;
+ 	
+}
+.guding img{
+	height: 80%;
+	width: 20%;
+	margin-left: 2.5%;
+}
+.guding span{
+	font-size: 25px;
+	font-family: "微软雅黑";
+	font-weight: 800;
+}
+.myfriend{
+	width:100%;
+ 	height: 60px;
+ 	background-color: #D500F9;
+ 	display: flex;
+ 	align-items: center;
+ 	border-bottom: 1px solid gray;
+ 	
+}
+ #hp {
+	flex:0.2;
+	height: 100%;
+	background-image: url(../img/c583df4cdb382aff-41d90f1708ec4a72-30a7e75b2ea7271c22502b4b24838a9a.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-left: 2.5%;
+}
+#fn{
+	flex:0.8;
+	font-size: 20px;
+	display: flex;
+ 	align-items: center;
+ 	margin-left: 10px;
+ 	font-weight: 600;
+}
