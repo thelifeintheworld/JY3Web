@@ -1,0 +1,32 @@
+#memu{
+	width: 100%;
+	height: 50px;
+	background-color: #d50000;
+	display: flex;
+}
+
+			.bottom{
+				height: 100%;
+				width:25%;
+				position: relative;
+				display: flex;
+				text-align: center;
+				display: block;
+				font-size: 10px;
+				align-items: center;
+				justify-content: center;
+			}
+			
+			.bottom img
+			{
+				width: 50%;
+				height: 50%;
+				position: relative;
+				
+			}
+			.bottom span{
+				text-align: center;
+				display: block;
+				margin-bottom: 10px;
+			}
+			

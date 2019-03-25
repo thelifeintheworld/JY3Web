@@ -1,0 +1,52 @@
+#wobiaot{
+	width: 100%;
+	height: 150px;
+	background-color: #d50000 ;
+	display: flex;
+}
+#btl{
+	flex:0.3;
+	height: 100%;
+	align-items: center;
+	display: flex;
+	text-indent: 7px;
+}
+#hp img
+{
+	width: 80%;
+	height: 80%;
+	margin-top:10% ;
+}
+#btc{
+	flex: 0.5;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+#btr{
+	flex:0.2;
+	height: 100%;	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 10%;
+}
+#btr img{
+	width:26px ;
+	height: 26px;
+	display: flex;
+}
+#btl span{
+	color: #EEEEEE;	
+}
+#btc span:first-child
+{
+	font-size:26px;
+	color:black;
+}
+#btc span:nth-child(2)
+{
+	color:#BDBDBD;
+}

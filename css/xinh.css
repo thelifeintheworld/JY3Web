@@ -1,0 +1,55 @@
+#xinh{
+	width: 100%;
+	height: 25px;
+	background-color:#3E2723;
+	display: flex;
+	justify-content: space-between;
+}
+
+.xsd{
+	height: 100%;
+	width: 30px;
+}
+#xl{
+	flex:0.4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#xc{
+	flex:0.2;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+#xr{
+	flex:0.4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#xl ul li{
+	width: 5px;
+	height: 5px;
+	background-color: white;
+	border-radius: 50%;
+	margin-left: 3px;
+	margin-top: -7px;
+}
+#xl ul{
+	list-style: none;
+	display: flex;
+	margin-left: 10px;
+	margin-top:10px ;
+}
+.xsd img{
+	width:60px ;
+	height:100% ;
+	margin-left: 0;
+	margin-right: -10px;
+}
+.xsd span{
+	font-size:10px;
+	color: white;
+}
+

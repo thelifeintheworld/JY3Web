@@ -1,0 +1,54 @@
+#biaot{
+	width: 100%;
+	height: 50px;
+	background-color: #d50000 ;
+	display: flex;
+}
+#fcbt{
+	width: 100%;
+	height: 50px;
+	background-color: #d50000 ;
+	display: flex;
+}
+#btl{
+	flex:0.7;
+	height: 100%;
+	align-items: center;
+	display: flex;
+	text-indent: 7px;
+}
+#btr{
+	flex:0.3;
+	height: 100%;	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#btr img{
+	width:26px ;
+	height: 26px;
+}
+#btl span{
+	color: black;
+	font-size:20px ;
+}
+#btl img
+{
+	width:26px ;
+	height: 26px;
+}
+#fcbt #btr 
+{
+	flex:0.2;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#fcbt #btl{
+	flex:0.8;
+	height: 100%;
+	align-items: center;
+	display: flex;
+	text-indent: 7px;
+}

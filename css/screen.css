@@ -1,0 +1,16 @@
+#screen{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	display: flex;
+	background-color:#00FFFF;
+	flex-direction:column ;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
