@@ -8,6 +8,10 @@
 			div{
 			border: 2px solid black;
 		}
+		#1{
+			position: absolute;
+			left: 300px;
+		}
 		body{
 			width: 1000px;
 			height: 100%;
@@ -46,7 +50,7 @@
 		{
 			width: 90px;
 			height: 90px;
-			background-color: red;
+			background-image: -webkit-radial-gradient(15px 15px,circle cover,#ff0000,#e01717);
 			border-radius: 50%;
 			position:relative;
 			left:320px;
@@ -155,12 +159,12 @@
 		}
 		#catbody
 		{
-		width:800px;
-		height:980px ;
-		position: absolute;
-		left: 14%;
-		/*top:74%;*/
-		border-radius:40% ;
+		width:80%;
+		height:850px ;
+		position: relative;
+		left: 19%;
+		
+		border-radius:380px 380px 320px 320px ;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -174,17 +178,17 @@
 			height: 200px;
 			display: flex;
 			position: relative;
-			left:180px;
-			top:675px;
+			left:150px;
+			top:-300px;
 			float: left;
 			background-color: #FFFFFF;
 			z-index: -1;
 		}
 		#catfootleft{
-			border-radius:34% 0 15% 34%;
+			border-radius:200px 0 120px 130px; 
 		}
 		#catfootright{
-			border-radius:0 34% 34% 15%;
+			border-radius:0 200px 130px 120px;
 		}
 		#ling{
 			width: 100px;
@@ -196,7 +200,7 @@
 		}
 		#catbozi
 		{
-			width: 65%;
+			width:53%;
 			height:60px ;
 			position: relative;
 			left:10px;
@@ -208,8 +212,8 @@
 		background-color: #FF0000;
 		}
 		#duzi{
-			width: 80%;
-			height: 75%;
+			width: 73%;
+			height: 70%;
 			position: relative;
 			top:-90px;
 			border-radius: 50%;
@@ -220,12 +224,12 @@
 		}
 		#koudai
 		{
-			width: 50%;
-			height: 30%;
+			width: 80%;
+			height: 50%;
 			border: 3px  solid black;
 			position: relative;
-			top:10%;
-			border-radius:0 0 50% 50% ;
+			top:19%;
+			border-radius:0 0 250px 250px ;
 		}
 		#zhuaziright
 		{
@@ -245,7 +249,7 @@
 			left:-125px;
 			top: 140px;
 			background-color: blue;
-			transform:rotate(42deg) ;
+			transform:rotate(44deg) ;
 			border:none;
 		}
 		.zhuazi{
@@ -290,15 +294,16 @@
 			left: 46px;
 		}
 		#line8{
-			height: 252px;
+			height: 180px;
 			position: relative;
-			top:860px;
-			left:582px;
+			top:-121px;
+			left:552px;
 		}
 		</style>
 		<title>哆啦A梦</title>
 	</head>
 	<body>
+		<div id="1">
 		<div id="cat1">
 			<div id="catface">
 				<div id="cateyeleft" class="eye">
@@ -334,7 +339,7 @@
 			</div>
 			</div>
 			
-		</div>
+		
 		<div id="catbody">
 			<div id="zhuazileft" class="zhua">
 				<div id="left" class="zhuazi"></div>
