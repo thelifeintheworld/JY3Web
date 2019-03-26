@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+	
+	<title>发布</title>
+	
+		
+	</head>
+	<body>
+		
+		<div id="d1">
+		</div>
+		<button id="btn1">发送</button>
+		
+		<script type="text/javascript">
+			$(function(){
+			$("#d1").css({"width":"500px","height":"600px","border":"2px double black","display":"flex","flex-direction":"column"});
+			$("#btn1").css({"position":"absolute","top":"600px"});
+			$("#btn1").click(function(){
+				$("#d1").append("<p >世人都晓神仙好，惟有功名忘不了。古今将相在何方？荒冢一堆草没了。</p>");
+			})
+			})
+		</script>
+	</body>
+</html>

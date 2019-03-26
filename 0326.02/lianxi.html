@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>JQ练习</title>
+		<script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+		<style type="text/css">
+			.divx{
+				width: 300px;
+				height: 200px;
+				border: 3px blanchedalmond double;
+				margin-left: 60px;
+				background-color: aquamarine;
+			}
+			body{
+				display: flex;
+			}
+			.img{
+				width: 50%;
+				height: 50%;
+				margin-top: 5%;
+				margin-left: 5%;
+			}
+			.p{
+				color: deeppink;
+				font-size: 20px;
+				font-family: "微软雅黑";
+				
+			}
+		</style>
+	</head>
+	<body>
+		<!--<table border="1px">
+			<tr>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>5</td>
+				<td>6</td>
+			</tr>
+			<tr>
+				<td>7</td>
+				<td>8</td>
+				<td>9</td>
+			</tr>
+			<tr>
+				<td>10</td>
+				<td>11</td>
+				<td>12</td>
+			</tr>
+		</table>-->
+		<div id="1">
+			<img id="img1"  src="img/2527ddb06ff1128f-27dc0329ebc9a017-a20cd8d784c86c5ca8627745f58b6bbb.jpg"/>
+			<img src="img/2527ddb06ff1128f-27dc0329ebc9a017-a20cd8d784c86c5ca8627745f58b6bbb.jpg"/>
+			<img src="img/2527ddb06ff1128f-27dc0329ebc9a017-a20cd8d784c86c5ca8627745f58b6bbb.jpg"/>
+			<span>
+				大树
+			</span>
+		</div>
+		<div>
+			<img id="2" src="img/2527ddb06ff1128f-27dc0329ebc9a017-a20cd8d784c86c5ca8627745f58b6bbb.jpg"/>
+			<img src="img/2527ddb06ff1128f-27dc0329ebc9a017-a20cd8d784c86c5ca8627745f58b6bbb.jpg"/>
+			<img src="img/2527ddb06ff1128f-27dc0329ebc9a017-a20cd8d784c86c5ca8627745f58b6bbb.jpg"/>
+			<img src="img/2527ddb06ff1128f-27dc0329ebc9a017-a20cd8d784c86c5ca8627745f58b6bbb.jpg"/>
+			
+		</div>
+		<div>
+			<p id="3">世人都晓神仙好，惟有功名忘不了。
+古今将相在何方？荒冢一堆草没了。
+世人都晓神仙好，只有金银忘不了。
+终朝只恨聚无多，及到多时眼闭了。
+世人都晓神仙好，只有娇妻忘不了。
+君生日日说恩情，君死又随人去了。
+世人都晓神仙好，只有儿孙忘不了。
+痴心父母古来多，孝顺子孙谁见了?</p>
+<p >世人都晓神仙好，惟有功名忘不了。
+古今将相在何方？荒冢一堆草没了。
+世人都晓神仙好，只有金银忘不了。
+终朝只恨聚无多，及到多时眼闭了。
+世人都晓神仙好，只有娇妻忘不了。
+君生日日说恩情，君死又随人去了。
+世人都晓神仙好，只有儿孙忘不了。
+痴心父母古来多，孝顺子孙谁见了?</p>
+<p >世人都晓神仙好，惟有功名忘不了。古今将相在何方？荒冢一堆草没了。世人都晓神仙好，只有金银忘不了。终朝只恨聚无多，及到多时眼闭了。世人都晓神仙好，只有娇妻忘不了。君生日日说恩情，君死又随人去了。世人都晓神仙好，只有儿孙忘不了。痴心父母古来多，孝顺子孙谁见了?</p>
+<p >世人都晓神仙好，惟有功名忘不了。
+古今将相在何方？荒冢一堆草没了。
+世人都晓神仙好，只有金银忘不了。
+终朝只恨聚无多，及到多时眼闭了。
+世人都晓神仙好，只有娇妻忘不了。
+君生日日说恩情，君死又随人去了。
+世人都晓神仙好，只有儿孙忘不了。
+痴心父母古来多，孝顺子孙谁见了?</p>
+<p >世人都晓神仙好，惟有功名忘不了。
+古今将相在何方？荒冢一堆草没了。
+世人都晓神仙好，只有金银忘不了。
+终朝只恨聚无多，及到多时眼闭了。
+世人都晓神仙好，只有娇妻忘不了。
+君生日日说恩情，君死又随人去了。
+世人都晓神仙好，只有儿孙忘不了。
+痴心父母古来多，孝顺子孙谁见了?</p>
+		</div>
+		<div>
+			
+		</div>
+		
+		
+		
+		
+		<script type="text/javascript">
+//			$("tr:even").css("background-color","blue");
+//			alert("小心翼翼");
+			$(function(){
+				$("#1").addClass("divx");
+				$("#1").next().addClass("divx");
+				$("#1").next().next().addClass("divx");
+				$("#1").next().next().next().addClass("divx");
+				$("#1").html();
+				$("#img1").addClass("img");
+				$("#img1").next().addClass("img");
+				$("#img1").next().next().addClass("img");
+				$("#2").addClass("img");
+				$("#2").next().addClass("img");
+				$("#2").next().next().addClass("img");
+				$("#2").next().next().next().addClass("img");
+				$("#3").addClass("p");
+				$("#3").next().next().addClass("p");
+				
+				
+				
+			})
+		</script>
+	</body>
+</html>

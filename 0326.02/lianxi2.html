@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>课堂及课后练习</title>
+		<script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+		<style type="text/css">
+		
+			
+		</style>
+		
+	</head>
+	<body>
+		<h1 id="q1">什么是jQuery？</h1>
+		
+			<span id="a1"><h2>解答：</h2>
+		<p>jQuery是一个JavaScript数据库</p>
+			<p>jQuery极大简化编程JavaScript。</p>
+			<p>jQuery很容易学习的。</span>
+		
+		<script type="text/javascript">
+			
+		$(function(){
+			$("#a1").css("display","none");
+			$("#q1").click(function(){
+		$("#q1").css("background-color","#FF1493");
+		$("#a1").css("display","block");
+		})
+		})
+		</script>
+	</body>
+</html>
