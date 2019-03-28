@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+		<script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+		<title>登录页面设计实现</title>
+		<link rel="stylesheet" type="text/css" href="css/xinh.css"/>
+		<link rel="stylesheet" type="text/css" href="css/denglu.css"/>
+		<link rel="stylesheet" type="text/css" href="css/zhuce-neirong.css"/>
+	</head>
+	<body>
+		<div id="pingmu">
+			<div id="xinh">
+		<div id="xinhleft">	</div>
+		<div id="xinhcenter"></div>
+		<div id="xinhright"></div>
+		</div>
+			<div id="biaot2">
+				<div id="btleft2"></div>
+				<div id="btright2"></div>
+			</div>
+			<div id="neirong2">
+				<div id="nrtop2"></div>
+				<div id="nrcenter2">
+					<div id="nrc1"></div>
+					<div id="nrc3"></div>
+					<div id="nrc4"></div>
+					<div id="nrc5"></div>
+				</div>
+				<div id="nrbottom2"></div>
+				
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				$("#xinhleft").append("<ul>"+
+				"<li></li>"+
+				"<li></li>"+
+				"<li></li>"+
+				"<li></li>"+
+			"</ul>");
+			$("#xinhleft").append("<span>中国移动</span>");
+			$("#xinhleft").append("<img src='img/wifi.svg'/>");
+			$("#xinhcenter").append("<span>14:21</span>");
+			$("#xinhright").append("<img src='img/耳机.svg' />"+
+			 "<span>充电中</span>"+
+			"<img src='img/电池充电.svg' />");
+			$("#biaot2").css({"width":"100%","height":"50px","display":"flex"});
+			$("#btleft2").css({"display":"flex","flex":"0.5","background-color":"greenyellow","align-items":"center","justify-content":"center"});
+			$("#btright2").css({"display":"flex","flex":"0.5","background-color":"green","align-items":"center","justify-content":"center"});
+			$("#nrtop2").append("<span>头像：</span><img src='img/头像 男孩.svg' /><img src='img/头像 (女).svg' />")
+			$("#nrc1,#nrc3,#nrc4,#nrc5").addClass("nrc");
+			$("#nrc1").append("<span>手 机 号：</span><input id='in1' type='text' />");
+			$("#nrc3").append("<span>用 户 名：</span><input id='in3' type='text' />");
+			$("#nrc4").append("<span>输入密码：</span><input id='in4' type='password' />");
+			$("#nrc5").append("<span>确认密码：</span><input id='in5' type='password' />");
+			$("#btleft2").append("<span>手机注册</span>");
+			$("#btright2").append("<span>邮箱注册</span>");
+			$("input").addClass().css({"border-radius":"10px","text-indent":"4px","width":"200px","height":"31px"});
+			$("#nrbottom2").append("<a href=''><span>注册遇到问题？点击这里获得帮助</span></a><br/><a href='登录界面.html'><button id='b1'>注冊</button></a><br/><button id='b2'><a href='登录界面.html'>已有賬號，返回登录</a></button>");
+			$("#b2,#b1").css({"width":"320px","height":"48px"});
+			})
+		</script>
+	</body>
+</html>
