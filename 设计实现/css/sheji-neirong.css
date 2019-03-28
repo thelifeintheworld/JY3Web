@@ -1,0 +1,53 @@
+#neirong{
+	width: 100%;
+	flex:1;
+	background-color: red;
+	display: flex;
+	flex-direction: column;
+	
+}
+#nrtop{
+	flex:0.3;
+	display: flex;
+}
+#nrcenter{
+	flex:0.4;
+	flex-direction: column;
+	display: flex;
+}
+#nrbottom{
+	flex: 0.3;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#neirong span{
+	font-family: "微软雅黑";
+	font-size: 22px;
+	position: relative;
+	color: #3E2723;
+}
+#nrtop img{
+	width: 40%;
+	height: 80%;
+	position: relative;
+	top:10%;
+	left:30%;
+}
+.nrc{
+	width: 80%;
+	position: relative;
+	left:10%;
+	flex: 33%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+input{
+	border-radius: 5px;
+	text-indent: 2px;
+	height: 39px;
+	width: 198px;
+	color:aqua;
+}

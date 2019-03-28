@@ -1,0 +1,23 @@
+#biaot{
+	width: 100%;
+	height: 50px;
+	background-color: #d50000 ;
+	display: flex;
+	justify-content: space-around;
+}
+#btleft{
+	display: flex;
+	flex: 0.8;
+	align-items: center;
+	
+}
+#btright{
+	display: flex;
+	flex: 0.2;
+	justify-content: flex-end;
+	align-items: center;
+}
+#biaot img{
+	width:30px ;
+	height:30px;
+}
