@@ -1,0 +1,37 @@
+#biaot{
+	width: 100%;
+	height: 50px;
+	background-color: #AB47BC;
+	display: flex;
+}
+#btr{
+	flex: 0.8;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#btl{
+	flex: 0.2;
+	height: 100%;
+}
+#btr span{
+	font-size: 24px;
+	color:#E1BEE7;
+}
+#btl img{
+	width: 50%;
+	height: 100%;
+}
+#text{
+	margin-top: 20px;
+}
+#text span{
+	font-size: 20px;
+	font-family: "微软雅黑";
+	color:#F06292;
+}
+textarea{
+	width: 100%;
+	height: 60px;
+}

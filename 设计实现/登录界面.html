@@ -5,6 +5,8 @@
 		<meta name="viewport"content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
 		<script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
 		<title>设计登录页面实现</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+		
 		<link rel="stylesheet" type="text/css" href="css/xinh.css"/>
 		<link rel="stylesheet" href="css/denglu.css" />
 		<link rel="stylesheet" type="text/css" href="css/sheji-biaot.css"/>
@@ -17,6 +19,7 @@
 		<div id="xinhcenter"></div>
 		<div id="xinhright"></div>
 		</div>
+		
 		<div id="biaot">
 			<div id="btleft"></div>
 			<div id="btright"></div>
@@ -48,22 +51,25 @@
 			$("#xinhright").append("<img src='img/耳机.svg' />"+
 			 "<span>充电中</span>"+
 			"<img src='img/电池充电.svg' />");
-			$("#btleft").append("<a id='ta1' href=''><img src='img/箭头_向左_黑.svg' /></a>");
+			$("#btleft").append("<a id='ta1' href='注册页面.html'><img src='img/箭头_向左_黑.svg' /></a>");
 			$("#btright").append("<a id='ta2' href=''><img src='img/疑问.svg' /></a>");
 			$("#nrtop").append("<img src='img/4871f53eadb450fe-93cfa3aaefd949a6-b62e06bf369b445392591eeb7319cd46.jpg' />");
 			$("#nrc1,#nrc2,#nrc3").addClass("nrc");
 			$("#nrc1").append("<span>用户名：</span><input id='in1'type='text' />");
 			$("#nrc2").append("<span>密  码：  </span><input  id='in2'type='password' />");
-			$("#nrc3").append("<span>验证码：</span><input id='in3' type='text' /> <button id='nb1'>获取验证码</button>");
+			$("#nrc3").append("<span>验证码：</span><input id='in3' type='text' /> <button type='button' class='btn btn-info'>获取验证码</button>");
 			$("input").addClass("input");
 			$("#in1,#in2").css("background-color","chartreuse");
 			$("#in3").css({"width":"94px","background-color":"yellow"});
 			$("#nrbottom").append("<a  id='na1' href=''><span>忘记密码？找回密码</span><br/><br/>"+
-			"</a> <button id='nb2'>确认登录</button>");
-			$("#nb2").css({"height":"48px","width":"80%"});
-			$("#nb1").css({"height":"39px","width":"89px"});
+			"</a><a href='注册页面.html'><span>沒有賬號，前去注冊</span>"+
+			"</a> <br /><a href='首页.html'><button type='button' id='nb2' >确认登录</button></a>");
+			$("#nb2").css({"height":"48px","width":"240px"});
 			
 			})
 		</script>
+		<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+	
 	</body>
 </html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+		<script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/xinh.css"/>
+		<link rel="stylesheet" type="text/css" href="css/denglu.css"/>
+		<link rel="stylesheet" type="text/css" href="css/shouye.css"/>
+		<title>首页</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+		
+	</head>
+	<body>
+		<div id="pingmu">
+			<div id="xinh">
+		<div id="xinhleft">	</div>
+		<div id="xinhcenter"></div>
+		<div id="xinhright"></div>
+		</div>
+		<div id="shop">	
+			<div id="biaot">
+			<div id="biaottop">
+				<div id="btl"></div>
+				<div id="btc"></div>
+				<div id="btr"></div>
+			</div>
+			<div id="biaotcenter">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox" >
+    <div class="item active">
+      <img id="img1" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553779910440&di=41b2a5e504813a164ba25047e20dddec&imgtype=0&src=http%3A%2F%2Fgss0.baidu.com%2F9fo3dSag_xI4khGko9WTAnF6hhy%2Fzhidao%2Fpic%2Fitem%2Fa686c9177f3e6709d3efd2173ac79f3df9dc556e.jpg" alt="...">
+      <div class="carousel-caption">
+       <h2>
+       	星光
+       </h2>
+      </div>
+    </div>
+    <div class="item">
+      <img id="img2"src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553779959254&di=1fc5d74388df38283d36aaba6435c675&imgtype=jpg&src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20160731%2F55dff907c8ba454eac68780cdce22e80_th.jpg" alt="...">
+      <div class="carousel-caption">
+        <h2> 
+        	隕星
+        </h2>
+      </div>
+    </div>
+    <div class="item">
+      <img id="img" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553779910429&di=f38d73888fb2b18f8fae4f0e090abc5b&imgtype=0&src=http%3A%2F%2Fimg2.3lian.com%2F2014%2Ff5%2F32%2Fd%2F121.jpg" alt="...">
+      <div class="carousel-caption">
+        <h2>星空</h2>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+			</div>
+			<div id="biaotbottom">
+				<div id="bb1"></div>
+				<div id="bb2"></div>
+				<div id="bb3"></div>
+				<div id="bb4"></div>
+			</div>
+			</div>
+			<div id="text">
+				<h2> <span id="">
+					新品上市
+				</span></h2>
+				<div id="textt"></div>
+				<h2><span>熱門主題</span></h2>
+				<div id="textc"></div>
+				<h2><span>猜你喜歡</span></h2><br />
+				<div id="textb"></div>
+				<hr />
+				<div id="bottom"></div>
+			</div>
+			</div>
+			
+		</div>
+		<script type="text/javascript">
+			$(function(){
+				$("#xinhleft").append("<ul>"+
+				"<li></li>"+
+				"<li></li>"+
+				"<li></li>"+
+				"<li></li>"+
+			"</ul>");
+			$("#xinhleft").append("<span>中国移动</span>");
+			$("#xinhleft").append("<img src='img/wifi.svg'/>");
+			$("#xinhcenter").append("<span>14:21</span>");
+			$("#xinhright").append("<img src='img/耳机.svg' />"+
+			 "<span>充电中</span>"+
+			"<img src='img/电池充电.svg' />");
+			$("#bb1,#bb2,#bb3,#bb4").addClass("bb");
+			$("#btl,#btc,#btr").addClass("bt");
+			$("#bb1").append("<span>壁紙</span>");
+			$("#bb2").append("<span>主題</span>");
+			$("#bb3").append("<span>字體</span>");
+			$("#bb4").append("<span>3D效果</span>");
+			$("#btl").append("<img src='img/2019-03-25_141714.png' />");
+			$("#btc").append("<span>主題商店</span>");
+			$("#btr").append("<img src='img/头像 (1).svg' />");
+			$("#textt").append("<img src='img/3.jpg'/><img src='img/c583df4cdb382aff-41d90f1708ec4a72-30a7e75b2ea7271c22502b4b24838a9a.jpg'/><img src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553779176767&di=e41c90a0b8de095de3d9d56573867b81&imgtype=0&src=http%3A%2F%2Fimg5.duitang.com%2Fuploads%2Fitem%2F201510%2F24%2F20151024150044_r8fdz.jpeg'/>");
+			$("#textc").append("<img src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553776645625&di=ce68e590271f3dc5a61385d9d3a0ed22&imgtype=0&src=http%3A%2F%2Fimg01.jituwang.com%2F170802%2F256840-1FP216154915.jpg'/><img src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553776711654&di=ec5af6facfe9e463605fbb645dd5d585&imgtype=0&src=http%3A%2F%2Fimg4q.duitang.com%2Fuploads%2Fitem%2F201504%2F13%2F20150413H1035_FeXZT.thumb.700_0.jpeg'/><img src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553776711654&di=65a9601a8eb52b1e19fb4937e47645f0&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F13%2F17%2F93%2F74758PICHji_1024.jpg'/><br />"+
+			"<img src='https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1553769558&di=f4f6811bd99fa0ef0efe56f1701dd7b8&src=http://bbsfiles.vivo.com.cn/vivobbs/attachment/forum/201701/09/210040n62oheeujh11fewh.jpg'/><img src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553776711647&di=cfb87825b4409cd3fc4a197f490c94ee&imgtype=0&src=http%3A%2F%2Fpic43.nipic.com%2F20140708%2F11284670_093113795000_2.jpg'/><img src='https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1553769432&di=801203ede837eb06448e434b5c5a3be8&src=http://pic.90sjimg.com/back_pic/qk/back_origin_pic/00/03/84/436664a7179362b39dd3440718ee6376.png'/><br />"+
+			"<img src='https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1553769432&di=2629ac17ad85e66c8152df121f669095&src=http://photo.16pic.com/00/61/01/16pic_6101359_b.jpg'/><img src='https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1553769432&di=e962257a38095706e16e3a51f4b3c411&src=http://photo.16pic.com/00/13/19/16pic_1319226_b.jpg'/><img src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553776711647&di=146abd2da1448a2c01e0e3ad654861aa&imgtype=0&src=http%3A%2F%2Fimg.coreldraw.com.cn%2Fdata%2Fattachment%2Fmaterial%2F2018-05-14%2Fpre_55uDd6b3pgSw3scK.jpg'/>");
+			$("#textb").append("<img src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553776711648&di=766cec989e63d5c83605eaa8a10468fe&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F15%2F16%2F55%2F46S58PICdcN_1024.jpg'/><img src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553776711652&di=3490cfbc0fc4034a741653b864252382&imgtype=0&src=http%3A%2F%2Fpic164.nipic.com%2Ffile%2F20180507%2F26785037_115300426034_2.jpg'/><img src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553776711653&di=5a62aa9b05d1cc63e1f419ba4ae85b80&imgtype=0&src=http%3A%2F%2Fpic51.huitu.com%2Fres%2F20160130%2F113936_20160130124314599392_1.jpg'/>");
+			$("#bottom").append("<a href='商品1.html'><span>更多精彩内容盡在>>>>>></span></a>");
+			$("img").addClass("img2");
+			$("#img1,#img2,#img3").css({"width":"100%","height":"180px"});
+		
+			})
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+	</body>
+</html>

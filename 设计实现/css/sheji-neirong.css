@@ -1,10 +1,10 @@
 #neirong{
 	width: 100%;
 	flex:1;
-	background-color: red;
 	display: flex;
 	flex-direction: column;
-	
+	background-image:url(../img/c583df4cdb382aff-41d90f1708ec4a72-30a7e75b2ea7271c22502b4b24838a9a.jpg);
+	background-repeat: no-repeat;
 }
 #nrtop{
 	flex:0.3;
@@ -26,7 +26,7 @@
 	font-family: "微软雅黑";
 	font-size: 22px;
 	position: relative;
-	color: #3E2723;
+	color: white;
 }
 #nrtop img{
 	width: 40%;

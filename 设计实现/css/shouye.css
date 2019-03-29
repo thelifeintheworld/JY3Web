@@ -1,0 +1,117 @@
+#biaot{
+	width: 100%;
+	flex:0.45;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+}
+h2 span{
+	color: #00FFFF;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	font-weight: 800;
+}
+#biaottop{
+	width: 99%;
+	flex: 0.6;
+	display: flex;
+}
+.bt{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.bt span{
+	
+	font-size: 20px;
+}
+#biaottop img{
+	width: 100px;
+	height: 50px;
+}
+#btl{
+	flex: 0.2;
+}
+#btc{
+	flex: 0.6;
+}
+#btr{
+	flex: 0.2;
+}
+#biaotcenter{
+	width: 99%;
+	flex: 1;
+}
+.carousel-inner img{
+	width: 375px;
+	height: 100px;
+}
+#biaotbottom{
+	display: flex;
+	width: 99%;
+	flex: 0.4;
+	flex-direction: row;
+}
+.bb{
+	height: 100%;
+	flex:0.25;
+	display: flex;
+	background-image: -webkit-radial-gradient(30px 30px,circle cover,#1A237E,#673AB7);
+	align-items: center;
+	justify-content: center;
+}
+#text{
+	width: 99%;
+	display: flex;
+	flex-direction: column;
+	flex:1;
+}
+.img2{
+	width: 120px;
+	height:120px ;
+	position: relative;
+	left:5px;
+}
+#textt{display: flex;flex: 0.2;flex-wrap:wrap;}
+#textc{flex: 0.6;display: flex;flex-wrap:wrap;}
+#text img:hover
+{
+	transform: scale(1.2);
+	z-index: 1;
+}
+#textb{flex: 0.2;display: flex;flex-wrap:wrap;}
+#bottom{
+	width: 100%;
+	height: 50px;
+}
+#bottom span{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color:#7FFFD4;
+	
+}
+@-webkit-keyframes shanshuo{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0.3;
+		transform:scale(1.1);
+		color: #E3F2FD;
+	}
+	80%{
+		opacity:1 ;}
+	100%{
+			opacity: 0;
+		}
+}
+.bb span{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	color: honeydew;
+	text-shadow:10px 15px 20px #00FFFF;
+	animation: shanshuo 5s ease-in-out infinite;
+	transition: all 1s;
+}

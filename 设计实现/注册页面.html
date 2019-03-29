@@ -24,7 +24,6 @@
 				<div id="nrtop2"></div>
 				<div id="nrcenter2">
 					<div id="nrc1"></div>
-					<div id="nrc2"></div>
 					<div id="nrc3"></div>
 					<div id="nrc4"></div>
 					<div id="nrc5"></div>
@@ -51,18 +50,16 @@
 			$("#btleft2").css({"display":"flex","flex":"0.5","background-color":"greenyellow","align-items":"center","justify-content":"center"});
 			$("#btright2").css({"display":"flex","flex":"0.5","background-color":"green","align-items":"center","justify-content":"center"});
 			$("#nrtop2").append("<span>头像：</span><img src='img/头像 男孩.svg' /><img src='img/头像 (女).svg' />")
-			$("#nrc1,#nrc2,#nrc3,#nrc4,#nrc5").addClass("nrc");
+			$("#nrc1,#nrc3,#nrc4,#nrc5").addClass("nrc");
 			$("#nrc1").append("<span>手 机 号：</span><input id='in1' type='text' />");
-			$("#nrc2").append("<span>验 证 码：</span><input id='in2' type='text' /> <button id='b1'>获取验证码</button>");
 			$("#nrc3").append("<span>用 户 名：</span><input id='in3' type='text' />");
 			$("#nrc4").append("<span>输入密码：</span><input id='in4' type='password' />");
 			$("#nrc5").append("<span>确认密码：</span><input id='in5' type='password' />");
 			$("#btleft2").append("<span>手机注册</span>");
 			$("#btright2").append("<span>邮箱注册</span>");
-			$(" #in2").css({"width":"114px","height":"31px"});
 			$("input").addClass().css({"border-radius":"10px","text-indent":"4px","width":"200px","height":"31px"});
-			$("#nrbottom2").append("<a href=''><span>注册遇到问题？点击这里获得帮助</span></a><br/><button id='b2'>已有账号，返回登录</button>");
-			$("#b2").css({"width":"320px","height":"48px"});
+			$("#nrbottom2").append("<a href=''><span>注册遇到问题？点击这里获得帮助</span></a><br/><a href='登录界面.html'><button id='b1'>注冊</button></a><br/><button id='b2'><a href='登录界面.html'>已有賬號，返回登录</a></button>");
+			$("#b2,#b1").css({"width":"320px","height":"48px"});
 			})
 		</script>
 	</body>
